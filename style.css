@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+body {
+    background: #109150;
+    font-family: 'Merriweather', serif;
+}
+
+.card {
+    background: white;
+    margin: auto;
+    height: 400px;
+    width: 250px;
+    border: 1px solid rgba(245, 240, 240, 0.932);
+    border-radius: 8px;
+    font-size: 85px;
+}
+
+.middle {
+    height: 35%;
+    font-size: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#top {
+    height: 30%;
+    margin-left: 14px;
+}
+
+#bottom {
+    height: 35%;
+    float: right;
+    margin-right: 14px;
+    transform: scale(1, -1);
+}
+
+.number {
+    position: absolute;
+    top: -7%;
+    margin: 0;
+    font-size: 8rem;
+    font-weight: bold;
+}
