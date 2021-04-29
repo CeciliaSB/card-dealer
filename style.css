@@ -34,10 +34,3 @@ body {
     transform: scale(1, -1);
 }
 
-.number {
-    position: absolute;
-    top: -7%;
-    margin: 0;
-    font-size: 8rem;
-    font-weight: bold;
-}
